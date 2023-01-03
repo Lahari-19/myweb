@@ -40,7 +40,7 @@ pipeline{
             }
         stage('Build Docker Image'){
             steps{
-                 sh 'docker build -t Lahari19/spring-boot-mongo .'
+                 sh 'docker build -t lahari19/spring-boot-mongo .'
              }
          }
         stage('Push Docker Image'){
